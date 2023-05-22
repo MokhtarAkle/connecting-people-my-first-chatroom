@@ -1,8 +1,8 @@
 > _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
-# Titel
+# First chatroom based on CtC style
 
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+![image](https://github.com/MokhtarAkle/connecting-people-my-first-chatroom/assets/45001009/c3489bc0-bd5f-4c4a-ac81-8eb5ef93373f)
 
 ## Inhoudsopgave
 
