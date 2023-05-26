@@ -9,7 +9,13 @@
 </head>
 <body>
     <img src="/images/688653_0164ef6908b34bea9274ad062f59bc1e~mv2.webp" id="background-image"> 
-    <section>
+    <div id="user-select-container">
+        <form >
+            <input name="username" placeholder="Your username..."/>
+            <button >Send</button>
+          </form>
+    </div>
+    <section id="chat-container">
         <div id="chat-header">
             <img src="/images/CTC_Primary_Logo_Purple.png">
         </div>
@@ -18,6 +24,9 @@
           <input id="input" autocomplete="off" placeholder="Type your message here..."/><button>Send</button>
         </form>
     </section>
+    <span id="user-container">
+
+    </span>
 
 
     <script src="/socket.io/socket.io.js"></script>

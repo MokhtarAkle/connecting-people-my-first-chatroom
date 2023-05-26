@@ -88,3 +88,18 @@ section{
   background: #efefef;
 }
 
+#user-select-container{
+  background-color: white;
+  border: 2px solid white;
+  width: 50vw;
+  height: 50vh;
+  z-index: 1;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+#user-select-container > form{
+
+}

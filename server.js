@@ -22,9 +22,24 @@ io.on('connection', (socket) => {
       socket.on('chat message', (msg) => {
         console.log('message: ' + msg);
         io.emit('chat message', msg);
-      });    
+        console.log(socket.id, socket.username)
+      });  
+      socket.broadcast.emit("user connected", {
+        userID: socket.id,
+        username: socket.username,
+      });
+      const users = [];
+    for (let [id, socket] of io.of("/").sockets) {
+    users.push({
+      userID: id,
+      username: socket.username,
+    });
+  }
+  socket.emit("users", users);  
+
   });
 
 server.listen(port, () => {
   console.log('listening on http://localhost:' + port);
+
 });
