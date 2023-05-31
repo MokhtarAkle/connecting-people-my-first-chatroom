@@ -7,16 +7,16 @@ var socket = io({ autoConnect: false });
   let usernameAlreadySelected = false;
   let chatDisplay = document.querySelector("#chat-container")
 
-  function hideScreen(){
-    if(usernameAlreadySelected){
-      chatDisplay.style.display = "flex";
-    }
-    else{
-      chatDisplay.style.display = "none";
-    }
-  }
+  // function hideScreen(){
+  //   if(usernameAlreadySelected){
+  //     chatDisplay.style.display = "flex";
+  //   }
+  //   else{
+  //     chatDisplay.style.display = "none";
+  //   }
+  // }
 
-  hideScreen();
+  // hideScreen();
 
   form.addEventListener('submit', function(e) {
     e.preventDefault();
